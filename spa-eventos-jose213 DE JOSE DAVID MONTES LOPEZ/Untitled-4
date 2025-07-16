@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <tittle>Gestion de Eventos</tittle>
+</head>
+<body>
+
+  <h1>Gestion de Eventos</h1>
+  <form id="eventForm">
+    <input type="text" id="tittle"
+placeholder="Titulo del evento"
+required><br>
+    <input type="text" id="location"
+placeholder="Ubicacion" required><br>
+    <input type="date" id="date"
+required><br>
+    <button type="submit"><Crear Evento/<
+button>
+  </form>
+
+  <h2>Eventos creados:</h2>
+  <ul id="evenList"></ul>
+
+  <script src="events.js"></script>
+</body>
+</html>

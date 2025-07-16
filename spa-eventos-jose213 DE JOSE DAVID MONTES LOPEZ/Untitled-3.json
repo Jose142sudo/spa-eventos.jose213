@@ -1,0 +1,17 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "Username": "admin",
+        "password": "admin123",
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "Username": "visitante",
+        "password": "123456",
+        "role": "visitante"
+      }
+    ],
+    "events": []
+}
